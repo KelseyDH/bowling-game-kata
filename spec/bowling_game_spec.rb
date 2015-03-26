@@ -65,4 +65,9 @@ RSpec.describe BowlingGame, "#score" do
    9.times{game.roll(1)}
    expect(game.completed?).to eql(false)
   end
+
+  # it "roles 10 times and scores 10 each time, returning 300" do
+  #  10.times{game.roll(10)}
+  #  expect(game.score).to eql(300)
+  # end
 end

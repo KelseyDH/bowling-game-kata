@@ -12,7 +12,7 @@ class Frame
   end
 
   def completed?
-    @rolls.length == 2
+    (@rolls.first == 10) || (@rolls.length == 2)
   end
 
   def score
